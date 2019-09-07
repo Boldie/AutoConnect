@@ -1,4 +1,4 @@
-#### [1.0.0] Sept. 5, 2019
+#### [1.0.0] Sept. 7, 2019
 - Supports Arduino core for ESP32 1.0.3.
 - Supports AutoConnectUpdate for the [OTA update](otaupdate.md).
 - Supports Preferences for saving credentials with ESP32 core 1.0.3 and later. **In ESP32, the credentials stored past in EEPROM will lose**.
