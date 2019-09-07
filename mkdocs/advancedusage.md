@@ -278,7 +278,7 @@ For disabling the captive portal, [**autoRise**](apiconfig.md#autorise) sets to 
 AutoConnect       portal;
 AutoConnectConfig acConfig;
 
-acConfig.autoRaise = false;
+acConfig.autoRise = false;
 portal.config(acConfig);
 portal.begin();
 ```
