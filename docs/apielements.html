@@ -677,6 +677,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#labelposition" title=" labelPosition" class="md-nav__link">
+     labelPosition
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#name_1" title=" name" class="md-nav__link">
      name
   </a>
@@ -1998,6 +2005,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#labelposition" title=" labelPosition" class="md-nav__link">
+     labelPosition
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#name_1" title=" name" class="md-nav__link">
      name
   </a>
@@ -3018,7 +3032,7 @@ Returns type of AutoConnectElement.
 </dl></p>
 <h2 id="autoconnectcheckbox">AutoConnectCheckbox<a class="headerlink" href="#autoconnectcheckbox" title="Permanent link">&para;</a></h2>
 <h3 id="constructor_1"><i class="fa fa-code"></i> Constructor<a class="headerlink" href="#constructor_1" title="Permanent link">&para;</a></h3>
-<p><div class="codehilite" style="background: #272822"><pre style="line-height: 125%"><span></span>  <span style="color: #66d9ef">explicit</span> <span style="color: #f8f8f2">AutoConnectCheckboxBasis(</span><span style="color: #66d9ef">const</span> <span style="color: #66d9ef">char</span><span style="color: #f92672">*</span> <span style="color: #f8f8f2">name</span> <span style="color: #f92672">=</span> <span style="color: #e6db74">&quot;&quot;</span><span style="color: #f8f8f2">,</span> <span style="color: #66d9ef">const</span> <span style="color: #66d9ef">char</span><span style="color: #f92672">*</span> <span style="color: #f8f8f2">value</span> <span style="color: #f92672">=</span> <span style="color: #e6db74">&quot;&quot;</span><span style="color: #f8f8f2">,</span> <span style="color: #66d9ef">const</span> <span style="color: #66d9ef">char</span><span style="color: #f92672">*</span> <span style="color: #f8f8f2">label</span> <span style="color: #f92672">=</span> <span style="color: #e6db74">&quot;&quot;</span><span style="color: #f8f8f2">,</span> <span style="color: #66d9ef">const</span> <span style="color: #66d9ef">bool</span> <span style="color: #f8f8f2">checked</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">false,</span> <span style="color: #66d9ef">const</span> <span style="color: #f8f8f2">ACPosterior_t</span> <span style="color: #f8f8f2">post</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">AC_Tag_BR)</span>
+<p><div class="codehilite" style="background: #272822"><pre style="line-height: 125%"><span></span><span style="color: #f8f8f2">AutoConnectCheckbox(</span><span style="color: #66d9ef">const</span> <span style="color: #66d9ef">char</span><span style="color: #f92672">*</span> <span style="color: #f8f8f2">name</span> <span style="color: #f92672">=</span> <span style="color: #e6db74">&quot;&quot;</span><span style="color: #f8f8f2">,</span> <span style="color: #66d9ef">const</span> <span style="color: #66d9ef">char</span><span style="color: #f92672">*</span> <span style="color: #f8f8f2">value</span> <span style="color: #f92672">=</span> <span style="color: #e6db74">&quot;&quot;</span><span style="color: #f8f8f2">,</span> <span style="color: #66d9ef">const</span> <span style="color: #66d9ef">char</span><span style="color: #f92672">*</span> <span style="color: #f8f8f2">label</span> <span style="color: #f92672">=</span> <span style="color: #e6db74">&quot;&quot;</span><span style="color: #f8f8f2">,</span> <span style="color: #66d9ef">const</span> <span style="color: #66d9ef">bool</span> <span style="color: #f8f8f2">checked</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">false,</span> <span style="color: #66d9ef">const</span> <span style="color: #f8f8f2">ACPosition_t</span> <span style="color: #f8f8f2">labelPosition</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">AC_Behind,</span> <span style="color: #66d9ef">const</span> <span style="color: #f8f8f2">ACPosterior_t</span> <span style="color: #f8f8f2">post</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">AC_Tag_BR)</span>
 </pre></div>
 <dl class="apidl">
     <dt><strong>Parameters</strong></dt>
@@ -3026,6 +3040,7 @@ Returns type of AutoConnectElement.
     <dd><span class="apidef">value</span><span class="apidesc">Value of the element.</span></dd>
     <dd><span class="apidef">label</span><span class="apidesc">A label string prefixed to the checkbox.</span></dd>
     <dd><span class="apidef">check</span><span class="apidesc">Checked state of the checkbox.</span></dd>
+    <dd><span class="apidef">labelPosition</span><span class="apidesc">Specifies the position of the label to generate.</span></dd>
     <dd><span class="apidef">post</span><span class="apidesc">Specifies the tag to be output afterward the element.</span></dd>
 </dl></p>
 <h3 id="public-member-variables_1"><i class="fa fa-code"></i> Public member variables<a class="headerlink" href="#public-member-variables_1" title="Permanent link">&para;</a></h3>
@@ -3053,6 +3068,17 @@ Returns type of AutoConnectElement.
     <dt><strong>Type</strong></dt>
     <dd><span class="apidef">String</span><span class="apidesc"></span></dd>
 </dl></p>
+<h4 id="labelposition"><i class="fa fa-caret-right"></i> labelPosition<a class="headerlink" href="#labelposition" title="Permanent link">&para;</a></h4>
+<p>Specifies the position of the label to generate with ACPostion_t enumeration value.
+<dl class="apidl">
+    <dt><strong>Type</strong></dt>
+    <dd><span class="apidef">ACPosition_t</span><span class="apidesc"></p>
+<ul>
+<li><strong><code>AC_Infront</code></strong> : Place a label in front of the check box.</li>
+<li><strong><code>AC_Behind</code></strong> : Place a label behind the check box.
+</span></dd>
+</dl></li>
+</ul>
 <h4 id="name_1"><i class="fa fa-caret-right"></i> name<a class="headerlink" href="#name_1" title="Permanent link">&para;</a></h4>
 <p>The element name. 
 <dl class="apidl">
